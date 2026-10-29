@@ -1,7 +1,48 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Testing & Coverage
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
 dist/
 build/
 *.egg-info/
-.venv/
+
+# Credenciais e configurações privadas
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Chaves e certificados
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+
+# Sessões e credenciais de clientes
+*.session
+*.session-journal
+credentials*.json
+secrets/
+
+# Dados locais, bancos e logs
+*.log
+*.db
+*.sqlite
+*.sqlite3
+logs/
+data/
+downloads/
